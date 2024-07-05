@@ -1,0 +1,163 @@
+body {
+  margin: 0px;
+  background-color: #212529;
+  font: 1.6rem "Oswald";
+}
+
+.root {
+  padding-bottom: 65px;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+  height: 100px;
+  width: 90%;
+  margin: 0% 5%;
+}
+.logo img {
+  width: 234px;
+  height: 57px;
+}
+.drop-down {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 20%;
+}
+.dropdown-toggle {
+  background-color: #2e3241;
+  border-radius: 10px;
+}
+.telegram-button {
+  display: flex;
+  align-items: center;
+  padding: 6px 20px;
+  border-radius: 10px;
+  background-color: #3dc6c1;
+  color: #fff;
+}
+.telegram-button img {
+  width: 22px;
+  height: 22px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.main-content {
+  width: 90%;
+  margin: 0% 5%;
+}
+
+.trade-summary-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding: 10px 0px;
+}
+.average-duration {
+  font-size: 22px;
+  color: grey;
+}
+.average-header-maintext {
+  font-size: 30px;
+  font-weight: bolder;
+}
+.average-heading {
+  height: 100px;
+  padding-bottom: 10px;
+  font-size: 60px;
+}
+.trade-text,
+.commission {
+  color: grey;
+}
+.commission {
+  font-size: 12px;
+}
+
+.table-borderless {
+  color: white;
+}
+.crypto-table {
+  border-collapse: separate;
+  color: white;
+}
+
+.exchange-logo {
+  height: 24px;
+  width: 24px;
+  border-radius: 50%;
+  border-style: none;
+}
+
+tbody tr {
+  background-color: #2e3241;
+  border: 20px solid #212529;
+}
+th {
+  color: grey;
+}
+
+.profit {
+  color: #5dc7c2;
+}
+
+.color-red {
+  color: #da5757;
+}
+
+.exchange-name {
+  padding-left: 15px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer {
+  border-top: 2px solid #2e3241;
+  position: absolute;
+  top: 100%;
+  bottom: 0;
+  padding: 13px;
+  width: 100%;
+  color: grey;
+  font-size: 14px;
+}
+.footer-text-link {
+  color: grey;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.justify-content-center {
+  border: solid 1px #191d28;
+  background-color: #191d28;
+  position: fixed;
+  left: 0;
+  align-items: center;
+  width: 100vw;
+  height: 47px;
+  bottom: 0;
+  z-index: 8;
+}
+.main-content {
+  padding-bottom: 50px;
+}
+
+.crypto-header {
+  color: white;
+  height: 100px;
+  width: 100%;
+  text-align: center;
+}
+
+.overall-average {
+  max-width: 40%;
+}
